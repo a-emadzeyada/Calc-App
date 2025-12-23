@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.calcapp.domain.CalculatorImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-12-23T07:47:41.243Z" hostname="AHMED" time="0.029">
+  <properties/>
+  <testcase name="parentheses and precedence work" classname="com.example.calcapp.domain.CalculatorImplTest" time="0.029"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

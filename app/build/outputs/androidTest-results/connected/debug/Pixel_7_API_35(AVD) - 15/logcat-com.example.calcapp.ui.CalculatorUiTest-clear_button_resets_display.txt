@@ -1,0 +1,150 @@
+12-23 11:24:59.415  8826  8840 I TestRunner: started: clear_button_resets_display(com.example.calcapp.ui.CalculatorUiTest)
+12-23 11:24:59.421  8826  8840 D IdlingRegistry: Registering idling resources: [androidx.compose.ui.test.junit4.EspressoLink@e995346]
+12-23 11:24:59.423  8826  8840 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+12-23 11:24:59.441   726  2153 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@f7ce1864 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+12-23 11:24:59.457  1354  1354 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=117, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.calcapp/.ui.MainActivity }
+12-23 11:24:59.468   171   171 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+12-23 11:24:59.469  8854  8868 I Gralloc4: mapper 4.x is not supported
+12-23 11:24:59.492   726   795 W Choreographer: Frame time is 0.014923 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+12-23 11:24:59.656   726  2153 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10215 pid=0
+12-23 11:24:59.656   726  2153 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10215 => denied (204 us)
+12-23 11:24:59.656   726  2153 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10215 pid=0
+12-23 11:24:59.656   726  2153 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10215 => denied (21 us)
+12-23 11:24:59.656   726  2153 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10215 pid=0
+12-23 11:24:59.656   726  2153 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10215 => denied (6 us)
+12-23 11:24:59.707  8826  8826 D LifecycleMonitor: Lifecycle status change: com.example.calcapp.ui.MainActivity@b94d52a in: PRE_ON_CREATE
+12-23 11:24:59.707  8826  8826 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+12-23 11:24:59.713  8826  8826 D LifecycleMonitor: Lifecycle status change: com.example.calcapp.ui.MainActivity@b94d52a in: CREATED
+12-23 11:24:59.713  8826  8826 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.calcapp.ui.MainActivity@b94d52a
+12-23 11:24:59.713  8826  8826 D LifecycleMonitor: Lifecycle status change: com.example.calcapp.ui.MainActivity@b94d52a in: STARTED
+12-23 11:24:59.713  8826  8826 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.calcapp.ui.MainActivity@b94d52a
+12-23 11:24:59.722  8826  8826 D LifecycleMonitor: Lifecycle status change: com.example.calcapp.ui.MainActivity@b94d52a in: RESUMED
+12-23 11:24:59.722  8826  8826 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.calcapp.ui.MainActivity@b94d52a
+12-23 11:24:59.747   414   414 I RanchuHwc: logCompositionFallbackIfChanged: layer 49 CompositionType fallback from 3 to 1
+12-23 11:25:00.052  1636  1793 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+12-23 11:25:00.055  1636  1793 I AiAiEcho: EchoTargets:
+12-23 11:25:00.055  1636  1793 I AiAiEcho: Filtered by AiAi flag check:
+12-23 11:25:00.055  1636  1793 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+12-23 11:25:00.057  1636  1793 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+12-23 11:25:00.057  1636  1793 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+12-23 11:25:00.060  1636  1793 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+12-23 11:25:00.061  1636  1793 I AiAiEcho: EchoTargets:
+12-23 11:25:00.061  1636  1793 I AiAiEcho: Filtered by AiAi flag check:
+12-23 11:25:00.061  1636  1793 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+12-23 11:25:00.061  1636  1793 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+12-23 11:25:00.062  1636  1793 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+12-23 11:25:00.063  1636  1793 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+12-23 11:25:00.069  1636  1793 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+12-23 11:25:00.073  1354  1354 D SsBaseTemplateCard: No text view can be set up
+12-23 11:25:00.073  1354  1354 D SsBaseTemplateCard: Passed-in item info is null
+12-23 11:25:00.073  1354  1354 D SsBaseTemplateCard: Passed-in item info is null
+12-23 11:25:00.073  1354  1354 D SsBaseTemplateCard: Passed-in item info is null
+12-23 11:25:00.073  1354  1354 I SsBaseTemplateCard: Secondary card pane is null
+12-23 11:25:00.075  1076  1182 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@dd8b970
+12-23 11:25:00.081   726  1852 W InputManager-JNI: Input channel object '39dc8a3 Splash Screen com.example.calcapp.test (client)' was disposed without first being removed with the input manager!
+12-23 11:25:00.143  1076  1249 D EGL_emulation: app_time_stats: avg=1861.91ms min=1861.91ms max=1861.91ms count=1
+12-23 11:25:00.157  1076  1076 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+12-23 11:25:00.163   726   790 W ziparchive: Unable to open '/data/app/~~1iGCFcytRq8AKbIdvf_ToQ==/com.example.calcapp-dVhdC196bT8_lIweKlb8UQ==/base.dm': No such file or directory
+12-23 11:25:00.165   726   790 I ActivityTaskManager: Displayed com.example.calcapp/.ui.MainActivity for user 0: +727ms
+12-23 11:25:00.182  8826  8879 D ProfileInstaller: Installing profile for com.example.calcapp
+12-23 11:25:00.207   726   923 I ImeTracker: com.example.calcapp:78ed845a: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+12-23 11:25:00.211   726   923 I ImeTracker: com.example.calcapp:78ed845a: onCancelled at PHASE_SERVER_SHOULD_HIDE
+12-23 11:25:00.237  8854  8854 D VRI[InstrumentationActivityInvoker$EmptyActivity]: visibilityChanged oldVisibility=true newVisibility=false
+12-23 11:25:00.240  1532  1532 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2085
+12-23 11:25:00.247  1532  1532 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+12-23 11:25:00.250  1532  1532 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1346 onStartInput(EditorInfo{EditorInfo{packageName=com.example.calcapp, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+12-23 11:25:00.255  1532  1532 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+12-23 11:25:00.288  8854  8854 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@cb9423f
+12-23 11:25:00.291   726  1852 W InputManager-JNI: Input channel object '2878448 com.example.calcapp.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+12-23 11:25:00.307  1354  1354 I TopTaskTracker: onTaskRemoved: taskId=116
+12-23 11:25:00.308  1354  1354 I TopTaskTracker: onTaskRemoved: taskId=116
+12-23 11:25:00.430  8854  8859 I le.calcapp.test: Compiler allocated 5174KB to compile void android.view.ViewRootImpl.performTraversals()
+12-23 11:25:00.461  1076  1182 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@74c52ce
+12-23 11:25:00.469   726  2153 W InputManager-JNI: Input channel object '18368db Splash Screen com.example.calcapp (client)' was disposed without first being removed with the input manager!
+12-23 11:25:00.609   726  1852 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@f982f103 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+12-23 11:25:00.653  8826  8826 D LifecycleMonitor: Lifecycle status change: com.example.calcapp.ui.MainActivity@b94d52a in: PAUSED
+12-23 11:25:00.653  8826  8826 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.calcapp.ui.MainActivity@b94d52a
+12-23 11:25:00.670  1354  1354 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=118, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.calcapp.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }
+12-23 11:25:00.678   462   462 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+12-23 11:25:00.724  8854  8868 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+12-23 11:25:00.728  8854  8868 I EGL_emulation: Opening libGLESv2_emulation.so
+12-23 11:25:00.737  8854  8868 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-23 11:25:00.737  8854  8868 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+12-23 11:25:00.795   414   414 I RanchuHwc: logCompositionFallbackIfChanged: layer 53 CompositionType fallback from 3 to 1
+12-23 11:25:00.849   726   790 W ziparchive: Unable to open '/data/app/~~-JMuTnsnfOAu0IBLgW78hw==/com.example.calcapp.test-clghp9qcNddEOdCeWszjDA==/base.dm': No such file or directory
+12-23 11:25:00.854   726   790 I ActivityTaskManager: Displayed com.example.calcapp.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +241ms
+12-23 11:25:00.866  1354  1354 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=105, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity }
+12-23 11:25:00.890  1354  1354 D StatsLog: LAUNCHER_ONRESUME
+12-23 11:25:00.894  1354  1354 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
+12-23 11:25:00.914   726  1659 W AppSearchIcing: icing-search-engine.cc:321: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+12-23 11:25:00.916  1636  1793 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+12-23 11:25:00.918  1354  1857 D OneSearchSuggestProvider: AppSearch 0-state cache not available, fallback to AGA
+12-23 11:25:00.918  1354  1857 D OneSearchSuggestProvider: java.util.concurrent.CompletionException: java.util.NoSuchElementException: No value present
+12-23 11:25:00.918  1354  1857 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:308)
+12-23 11:25:00.918  1354  1857 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:323)
+12-23 11:25:00.918  1354  1857 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:684)
+12-23 11:25:00.918  1354  1857 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:486)
+12-23 11:25:00.918  1354  1857 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2138)
+12-23 11:25:00.918  1354  1857 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:67)
+12-23 11:25:00.918  1354  1857 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.lambda$onResult$0(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:144)
+12-23 11:25:00.918  1354  1857 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.$r8$lambda$CEk3q8sDAQVhU3rQwVueB8FAj_M(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:1)
+12-23 11:25:00.918  1354  1857 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1$$ExternalSyntheticLambda0.run(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:22)
+12-23 11:25:00.918  1354  1857 D OneSearchSuggestProvider: 	at android.os.Handler.handleCallback(Handler.java:959)
+12-23 11:25:00.918  1354  1857 D OneSearchSuggestProvider: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+12-23 11:25:00.918  1354  1857 D OneSearchSuggestProvider: 	at android.os.Looper.loopOnce(Looper.java:232)
+12-23 11:25:00.918  1354  1857 D OneSearchSuggestProvider: 	at android.os.Looper.loop(Looper.java:317)
+12-23 11:25:00.918  1354  1857 D OneSearchSuggestProvider: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+12-23 11:25:00.918  1354  1857 D OneSearchSuggestProvider: Caused by: java.util.NoSuchElementException: No value present
+12-23 11:25:00.918  1354  1857 D OneSearchSuggestProvider: 	at java.util.Optional.get(Optional.java:143)
+12-23 11:25:00.918  1354  1857 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:28)
+12-23 11:25:00.918  1354  1857 D OneSearchSuggestProvider: 	... 8 more
+12-23 11:25:00.925  1354  1354 D BaseDepthController: setSurface:
+12-23 11:25:00.925  1354  1354 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+12-23 11:25:00.925  1354  1354 D BaseDepthController: 	mSurface: Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity)/@0xe4bdbb8
+12-23 11:25:00.928  1636  1793 I AiAiEcho: EchoTargets:
+12-23 11:25:00.928  1636  1793 I AiAiEcho: Filtered by AiAi flag check:
+12-23 11:25:00.928  1636  1793 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+12-23 11:25:00.930  1354  1857 D OneSearchSuggestProvider: Created the binder channel successfully for end point service =com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService , mChannel=i1{delegate=f{logId=29, target=directaddress:///AndroidComponentAddress%5BIntent%20%7B%20act=grpc.io.action.BIND%20cmp=com.google.android.googlequicksearchbox/com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService%20%7D%5D}} , mOneSearchConnection=l2.Z@b45d2d
+12-23 11:25:00.934  1636  1793 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+12-23 11:25:00.934  1636  1793 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+12-23 11:25:00.953  7181  7181 I epqm    : (REDACTED) Created gRPC endpoint for service %s
+12-23 11:25:01.027  1636  1793 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+12-23 11:25:01.042  1354  1423 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=workspace/0/[-1,-1]/[1,1]
+12-23 11:25:01.091  1354  1354 D SsBaseTemplateCard: No text view can be set up
+12-23 11:25:01.100  1354  1354 D SsBaseTemplateCard: Passed-in item info is null
+12-23 11:25:01.100  1354  1354 D SsBaseTemplateCard: Passed-in item info is null
+12-23 11:25:01.100  1354  1354 D SsBaseTemplateCard: Passed-in item info is null
+12-23 11:25:01.100  1354  1354 I SsBaseTemplateCard: Secondary card pane is null
+12-23 11:25:01.175  1076  1182 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@7fe71cb
+12-23 11:25:01.187   726  2153 W InputManager-JNI: Input channel object 'b66fb95 Splash Screen com.example.calcapp.test (client)' was disposed without first being removed with the input manager!
+12-23 11:25:01.219  1354  1737 D EGL_emulation: app_time_stats: avg=156.47ms min=1.17ms max=5306.91ms count=35
+12-23 11:25:01.225  8826  8826 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+12-23 11:25:01.301  1076  1249 D EGL_emulation: app_time_stats: avg=91.16ms min=4.81ms max=649.37ms count=12
+12-23 11:25:01.327  8826  8842 D EGL_emulation: app_time_stats: avg=21.77ms min=2.86ms max=153.54ms count=42
+12-23 11:25:01.345   726   970 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+12-23 11:25:01.354   726   970 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+12-23 11:25:01.355   726   970 D InetDiagMessage: Destroyed live tcp sockets for uids={10143} in 29ms
+12-23 11:25:01.358   726   970 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+12-23 11:25:01.362  8826  8842 D HWUI    : endAllActiveAnimators on 0x730f48aad9f0 (UnprojectedRipple) with handle 0x730df8ab0b70
+12-23 11:25:01.361   726   970 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+12-23 11:25:01.361   726   970 D InetDiagMessage: Destroyed live tcp sockets for uids={20143} in 6ms
+12-23 11:25:01.368  1354  1354 D StateManager: createAtomicAnimation - fromState: Background, toState: Normal, partial trace:
+12-23 11:25:01.368  1354  1354 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.prepareToAnimate(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:22)
+12-23 11:25:01.368  1354  1354 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.<init>(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:11)
+12-23 11:25:01.368  1354  1354 D StateManager: 	at com.android.launcher3.QuickstepTransitionManager.createWallpaperOpenAnimations(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:735)
+12-23 11:25:01.374  8826  8826 D LifecycleMonitor: Lifecycle status change: com.example.calcapp.ui.MainActivity@b94d52a in: STOPPED
+12-23 11:25:01.375  8826  8826 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.calcapp.ui.MainActivity@b94d52a
+12-23 11:25:01.395   414   414 I RanchuHwc: logCompositionFallbackIfChanged: layer 56 CompositionType fallback from 2 to 1
+12-23 11:25:01.395   414   414 I RanchuHwc: logCompositionFallbackIfChanged: layer 57 CompositionType fallback from 2 to 1
+12-23 11:25:01.399   726   923 I ImeTracker: com.google.android.apps.nexuslauncher:a0d87afe: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+12-23 11:25:01.401   726   923 I ImeTracker: com.google.android.apps.nexuslauncher:a0d87afe: onCancelled at PHASE_SERVER_SHOULD_HIDE
+12-23 11:25:01.414  1532  1532 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2085
+12-23 11:25:01.417  1532  1532 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+12-23 11:25:01.420  1532  1532 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1346 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.nexuslauncher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+12-23 11:25:01.427  1532  1532 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+12-23 11:25:01.449  8826  8826 D LifecycleMonitor: Lifecycle status change: com.example.calcapp.ui.MainActivity@b94d52a in: DESTROYED
+12-23 11:25:01.449  8826  8826 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+12-23 11:25:01.450  8826  8826 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6a3d171
+12-23 11:25:01.461   726  2112 W InputManager-JNI: Input channel object '109d590 com.example.calcapp/com.example.calcapp.ui.MainActivity (client)' was disposed without first being removed with the input manager!
+12-23 11:25:01.466  8826  8840 D IdlingRegistry: Unregistering idling resources: [androidx.compose.ui.test.junit4.EspressoLink@e995346]
+12-23 11:25:01.481  8826  8840 I TestRunner: finished: clear_button_resets_display(com.example.calcapp.ui.CalculatorUiTest)

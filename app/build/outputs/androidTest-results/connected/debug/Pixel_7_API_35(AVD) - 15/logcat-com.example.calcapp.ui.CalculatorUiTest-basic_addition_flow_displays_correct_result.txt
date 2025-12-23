@@ -1,0 +1,358 @@
+12-23 11:24:54.956  8826  8840 I TestRunner: started: basic_addition_flow_displays_correct_result(com.example.calcapp.ui.CalculatorUiTest)
+12-23 11:24:55.016  8826  8840 W FileTestStorage: Output properties is not supported.
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: enableTracing failed. You may need to upgrade your androidx.tracing:tracing version
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: java.lang.NoSuchMethodError: No static method forceEnableAppTracing()V in class Landroidx/tracing/Trace; or its super classes (declaration of 'androidx.tracing.Trace' appears in /data/app/~~1iGCFcytRq8AKbIdvf_ToQ==/com.example.calcapp-dVhdC196bT8_lIweKlb8UQ==/base.apk!classes8.dex)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at androidx.test.platform.tracing.AndroidXTracer.enableTracing(AndroidXTracer.java:57)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at androidx.test.platform.tracing.Tracing.<init>(Tracing.java:53)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at androidx.test.platform.tracing.Tracing.<clinit>(Tracing.java:49)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule.providesTracing(BaseLayerModule.java:190)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule_ProvidesTracingFactory.providesTracing(BaseLayerModule_ProvidesTracingFactory.java:37)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule_ProvidesTracingFactory.get(BaseLayerModule_ProvidesTracingFactory.java:29)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule_ProvidesTracingFactory.get(BaseLayerModule_ProvidesTracingFactory.java:11)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:47)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at androidx.test.espresso.base.IdlingResourceRegistry_Factory.get(IdlingResourceRegistry_Factory.java:34)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at androidx.test.espresso.base.IdlingResourceRegistry_Factory.get(IdlingResourceRegistry_Factory.java:12)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:47)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at androidx.test.espresso.DaggerBaseLayerComponent$BaseLayerComponentImpl.idlingResourceRegistry(DaggerBaseLayerComponent.java:275)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at androidx.test.espresso.Espresso.<clinit>(Espresso.java:64)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at androidx.compose.ui.test.junit4.EspressoLink_androidKt.runEspressoOnIdle(EspressoLink.android.kt:92)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at androidx.compose.ui.test.junit4.EspressoLink.runUntilIdle(EspressoLink.android.kt:79)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.runTest(ComposeUiTest.android.kt:320)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at androidx.compose.ui.test.junit4.AndroidComposeTestRule$apply$1.evaluate(AndroidComposeTestRule.android.kt:271)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:68)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)
+12-23 11:24:55.023  8826  8840 E AndroidXTracer: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:463)
+12-23 11:24:55.027  8826  8840 E AndroidXTracer: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2594)
+12-23 11:24:55.028  8826  8840 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+12-23 11:24:55.042  8826  8826 D EventInjectionStrategy: Creating injection strategy with input manager.
+12-23 11:24:55.044  8826  8826 W example.calcapp: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+12-23 11:24:55.048  8826  8826 W example.calcapp: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+12-23 11:24:55.048  8826  8826 W example.calcapp: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+12-23 11:24:55.058  8826  8826 W example.calcapp: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+12-23 11:24:55.058  8826  8826 W example.calcapp: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+12-23 11:24:55.061  8826  8826 W example.calcapp: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+12-23 11:24:55.062  8826  8840 D IdlingRegistry: Registering idling resources: [androidx.compose.ui.test.junit4.EspressoLink@64e2017]
+12-23 11:24:55.076  8826  8840 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+12-23 11:24:55.093   726  1852 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@f7ce1864 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+12-23 11:24:55.105  1354  1354 W SplitSelectStateCtor: Missing session instanceIds
+12-23 11:24:55.105  1354  1354 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+12-23 11:24:55.111   462   462 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+12-23 11:24:55.120  1354  1354 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=115, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.calcapp/.ui.MainActivity }
+12-23 11:24:55.185  8826  8826 D LifecycleMonitor: Lifecycle status change: com.example.calcapp.ui.MainActivity@44071d2 in: PRE_ON_CREATE
+12-23 11:24:55.186  8826  8826 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+12-23 11:24:55.258  1354  1737 D EGL_emulation: app_time_stats: avg=192.25ms min=2.19ms max=3927.25ms count=21
+12-23 11:24:55.274  8826  8826 D LifecycleMonitor: Lifecycle status change: com.example.calcapp.ui.MainActivity@44071d2 in: CREATED
+12-23 11:24:55.274  8826  8826 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.calcapp.ui.MainActivity@44071d2
+12-23 11:24:55.277  8826  8826 D LifecycleMonitor: Lifecycle status change: com.example.calcapp.ui.MainActivity@44071d2 in: STARTED
+12-23 11:24:55.277  8826  8826 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.calcapp.ui.MainActivity@44071d2
+12-23 11:24:55.291  8826  8826 D LifecycleMonitor: Lifecycle status change: com.example.calcapp.ui.MainActivity@44071d2 in: RESUMED
+12-23 11:24:55.291  8826  8826 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.calcapp.ui.MainActivity@44071d2
+12-23 11:24:55.307  8826  8826 W HWUI    : Unknown dataspace 0
+12-23 11:24:55.338  1354  1737 D EGL_emulation: app_time_stats: avg=1139.27ms min=2.81ms max=11124.28ms count=10
+12-23 11:24:55.567  1354  1354 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+12-23 11:24:55.582  1354  1354 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+12-23 11:24:55.626  1076  1249 D EGL_emulation: app_time_stats: avg=55609.34ms min=55609.34ms max=55609.34ms count=1
+12-23 11:24:55.779  8826  8826 W example.calcapp: Method boolean androidx.compose.runtime.snapshots.SnapshotStateList.conditionalUpdate(boolean, kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+12-23 11:24:55.779  8826  8826 W example.calcapp: Common causes for lock verification issues are non-optimized dex code
+12-23 11:24:55.779  8826  8826 W example.calcapp: and incorrect proguard optimizations.
+12-23 11:24:55.779  8826  8826 W example.calcapp: Method boolean androidx.compose.runtime.snapshots.SnapshotStateList.conditionalUpdate$default(androidx.compose.runtime.snapshots.SnapshotStateList, boolean, kotlin.jvm.functions.Function1, int, java.lang.Object) failed lock verification and will run slower.
+12-23 11:24:55.779  8826  8826 W example.calcapp: Method java.lang.Object androidx.compose.runtime.snapshots.SnapshotStateList.mutate(kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+12-23 11:24:55.779  8826  8826 W example.calcapp: Method void androidx.compose.runtime.snapshots.SnapshotStateList.update(boolean, kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+12-23 11:24:55.780  8826  8826 W example.calcapp: Method void androidx.compose.runtime.snapshots.SnapshotStateList.update$default(androidx.compose.runtime.snapshots.SnapshotStateList, boolean, kotlin.jvm.functions.Function1, int, java.lang.Object) failed lock verification and will run slower.
+12-23 11:24:55.892  1354  1354 W Choreographer: Frame time is 0.328116 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+12-23 11:24:56.208  8826  8842 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+12-23 11:24:56.209  8826  8830 I example.calcapp: Compiler allocated 5174KB to compile void android.view.ViewRootImpl.performTraversals()
+12-23 11:24:56.213  8826  8842 I EGL_emulation: Opening libGLESv2_emulation.so
+12-23 11:24:56.423  8826  8842 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-23 11:24:56.423  8826  8842 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+12-23 11:24:56.472   171   171 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+12-23 11:24:56.471  8826  8842 I Gralloc4: mapper 4.x is not supported
+12-23 11:24:56.753  8826  8826 I Choreographer: Skipped 83 frames!  The application may be doing too much work on its main thread.
+12-23 11:24:56.763   726   790 W ziparchive: Unable to open '/data/app/~~1iGCFcytRq8AKbIdvf_ToQ==/com.example.calcapp-dVhdC196bT8_lIweKlb8UQ==/base.dm': No such file or directory
+12-23 11:24:56.767   726   790 I ActivityTaskManager: Displayed com.example.calcapp/.ui.MainActivity for user 0: +1s672ms
+12-23 11:24:56.774  8826  8837 I HWUI    : Davey! duration=1435ms; Flags=1, FrameTimelineVsyncId=37471, IntendedVsync=1628254121922, Vsync=1628254121922, InputEventId=0, HandleInputStart=1628255335754, AnimationStart=1628255336604, PerformTraversalsStart=1628255337656, DrawStart=1629422729270, FrameDeadline=1628270788588, FrameInterval=1628255327964, FrameStartTime=16666666, SyncQueued=1629591843161, SyncStart=1629592035055, IssueDrawCommandsStart=1629597005073, SwapBuffers=1629670118004, FrameCompleted=1629690208932, DequeueBufferDuration=0, QueueBufferDuration=165833, GpuCompleted=1629690208932, SwapBuffersCompleted=1629673069007, DisplayPresentTime=72904454231359566, CommandSubmissionCompleted=1629670118004,
+12-23 11:24:56.783  1354  1354 D BaseDepthController: setSurface:
+12-23 11:24:56.783  1354  1354 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+12-23 11:24:56.783  1354  1354 D BaseDepthController: 	mSurface: null
+12-23 11:24:56.783  1354  1354 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+12-23 11:24:56.786  1354  1354 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+12-23 11:24:56.786  1354  1354 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:4)
+12-23 11:24:56.786  1354  1354 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:1)
+12-23 11:24:56.786  1354  1354 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:34)
+12-23 11:24:56.791  1354  1354 D StatsLog: LAUNCHER_ONSTOP
+12-23 11:24:56.794  1354  1857 D OneSearchSuggestProvider: Shut down the binder channel
+12-23 11:24:56.795  1354  1366 I IPCThreadState: oneway function results for code 2 on binder at 0x730df8ae8430 will be dropped but finished with status UNKNOWN_TRANSACTION
+12-23 11:24:56.796  1354  1354 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+12-23 11:24:56.806   726   923 I ImeTracker: com.example.calcapp:d53d4941: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+12-23 11:24:56.807   726   923 I ImeTracker: com.example.calcapp:d53d4941: onCancelled at PHASE_SERVER_SHOULD_HIDE
+12-23 11:24:56.816  1467  4197 I FontLog : (REDACTED) Received query %s, URI %s
+12-23 11:24:56.816  1467  4197 I FontLog : (REDACTED) Query [%s] resolved to %s
+12-23 11:24:56.835  1532  1532 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2085
+12-23 11:24:56.840  1532  1532 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+12-23 11:24:56.841  1532  1532 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1346 onStartInput(EditorInfo{EditorInfo{packageName=com.example.calcapp, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+12-23 11:24:56.841  1467  4197 I FontLog : (REDACTED) Fetch %s end status %s
+12-23 11:24:56.853  1532  1532 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+12-23 11:24:56.878  1467  4197 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+12-23 11:24:56.895  1467  4197 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+12-23 11:24:57.062  7499  7513 I .apps.wellbeing: Background concurrent mark compact GC freed 3427KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 3875KB/7751KB, paused 196us,9.976ms total 57.677ms
+12-23 11:24:57.065  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~u2vdmkkgiT-NQfvudlTd7Q==/com.google.android.youtube-t1usiWSJV1F6fuixKYIxCw==/base.apk' with 1 weak references
+12-23 11:24:57.066  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~u2vdmkkgiT-NQfvudlTd7Q==/com.google.android.youtube-t1usiWSJV1F6fuixKYIxCw==/split_config.en.apk' with 1 weak references
+12-23 11:24:57.066  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~u2vdmkkgiT-NQfvudlTd7Q==/com.google.android.youtube-t1usiWSJV1F6fuixKYIxCw==/split_config.x86_64.apk' with 1 weak references
+12-23 11:24:57.066  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~u2vdmkkgiT-NQfvudlTd7Q==/com.google.android.youtube-t1usiWSJV1F6fuixKYIxCw==/split_config.xxhdpi.apk' with 1 weak references
+12-23 11:24:57.066  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/DisplayCutoutEmulationCorner/DisplayCutoutEmulationCornerOverlay.apk' with 1 weak references
+12-23 11:24:57.066  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.extservices/priv-app/GoogleExtServices@350820300/GoogleExtServices.apk' with 1 weak references
+12-23 11:24:57.066  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/DisplayCutoutEmulationDouble/DisplayCutoutEmulationDoubleOverlay.apk' with 1 weak references
+12-23 11:24:57.066  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/TelephonyProvider/TelephonyProvider.apk' with 1 weak references
+12-23 11:24:57.066  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/TelephonyProvider__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+12-23 11:24:57.066  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/DynamicSystemInstallationService/DynamicSystemInstallationService.apk' with 1 weak references
+12-23 11:24:57.067  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~-10mQMHl6TrGowTgHgVWNA==/com.google.android.googlequicksearchbox-D-_QYIEUF8kBer83jqKgjA==/base.apk' with 1 weak references
+12-23 11:24:57.069  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~-10mQMHl6TrGowTgHgVWNA==/com.google.android.googlequicksearchbox-D-_QYIEUF8kBer83jqKgjA==/split_config.xxhdpi.apk' with 1 weak references
+12-23 11:24:57.073  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/CalendarProvider/CalendarProvider.apk' with 1 weak references
+12-23 11:24:57.073  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk' with 1 weak references
+12-23 11:24:57.073  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/GoogleExtShared/GoogleExtShared.apk' with 1 weak references
+12-23 11:24:57.074  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk' with 1 weak references
+12-23 11:24:57.074  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/HTMLViewer/HTMLViewer.apk' with 1 weak references
+12-23 11:24:57.074  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/CompanionDeviceManager/CompanionDeviceManager.apk' with 1 weak references
+12-23 11:24:57.074  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/DownloadProvider/DownloadProvider.apk' with 1 weak references
+12-23 11:24:57.074  1076  1182 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@77171c2
+12-23 11:24:57.076   726  1852 W InputManager-JNI: Input channel object 'df4ba Splash Screen com.example.calcapp (client)' was disposed without first being removed with the input manager!
+12-23 11:24:57.078  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~DtwEbkPvuJ2Ic7I8VNM1WA==/com.google.android.apps.messaging-Qb9T0rEZU398emc2MYCzsw==/base.apk' with 1 weak references
+12-23 11:24:57.085  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~DtwEbkPvuJ2Ic7I8VNM1WA==/com.google.android.apps.messaging-Qb9T0rEZU398emc2MYCzsw==/split_config.en.apk' with 1 weak references
+12-23 11:24:57.087  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~DtwEbkPvuJ2Ic7I8VNM1WA==/com.google.android.apps.messaging-Qb9T0rEZU398emc2MYCzsw==/split_config.x86_64.apk' with 1 weak references
+12-23 11:24:57.087  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~DtwEbkPvuJ2Ic7I8VNM1WA==/com.google.android.apps.messaging-Qb9T0rEZU398emc2MYCzsw==/split_config.xxhdpi.apk' with 1 weak references
+12-23 11:24:57.089  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk' with 1 weak references
+12-23 11:24:57.090  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.mediaprovider/priv-app/MediaProviderGoogle@350820300/MediaProviderGoogle.apk' with 1 weak references
+12-23 11:24:57.090  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~A1Fupy9_wXGcgk_rVCfuIg==/com.google.android.apps.safetyhub-bH8y7yQspR8icnZigK0Pgg==/base.apk' with 1 weak references
+12-23 11:24:57.092  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~A1Fupy9_wXGcgk_rVCfuIg==/com.google.android.apps.safetyhub-bH8y7yQspR8icnZigK0Pgg==/split_config.x86_64.apk' with 1 weak references
+12-23 11:24:57.092  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~A1Fupy9_wXGcgk_rVCfuIg==/com.google.android.apps.safetyhub-bH8y7yQspR8icnZigK0Pgg==/split_config.xxhdpi.apk' with 1 weak references
+12-23 11:24:57.097  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/DownloadProviderUi/DownloadProviderUi.apk' with 1 weak references
+12-23 11:24:57.097  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.wifi/app/OsuLoginGoogle@350820300/OsuLoginGoogle.apk' with 1 weak references
+12-23 11:24:57.098  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~m9HutpVHZ8cOkSilCa-uxg==/com.android.vending-yllcjSCtOpc_MsO2jv_fpg==/base.apk' with 1 weak references
+12-23 11:24:57.098  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~m9HutpVHZ8cOkSilCa-uxg==/com.android.vending-yllcjSCtOpc_MsO2jv_fpg==/split_config.en.apk' with 1 weak references
+12-23 11:24:57.098  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~m9HutpVHZ8cOkSilCa-uxg==/com.android.vending-yllcjSCtOpc_MsO2jv_fpg==/split_config.x86_64.apk' with 1 weak references
+12-23 11:24:57.098  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~m9HutpVHZ8cOkSilCa-uxg==/com.android.vending-yllcjSCtOpc_MsO2jv_fpg==/split_phonesky_data_loader.apk' with 1 weak references
+12-23 11:24:57.098  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~m9HutpVHZ8cOkSilCa-uxg==/com.android.vending-yllcjSCtOpc_MsO2jv_fpg==/split_phonesky_data_loader.config.x86_64.apk' with 1 weak references
+12-23 11:24:57.098  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~m9HutpVHZ8cOkSilCa-uxg==/com.android.vending-yllcjSCtOpc_MsO2jv_fpg==/split_phonesky_webrtc_native_lib.apk' with 1 weak references
+12-23 11:24:57.098  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~m9HutpVHZ8cOkSilCa-uxg==/com.android.vending-yllcjSCtOpc_MsO2jv_fpg==/split_phonesky_webrtc_native_lib.config.x86_64.apk' with 1 weak references
+12-23 11:24:57.098  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/PacProcessor/PacProcessor.apk' with 1 weak references
+12-23 11:24:57.098  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/SimAppDialog/SimAppDialog.apk' with 1 weak references
+12-23 11:24:57.106  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/SimAppDialog__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+12-23 11:24:57.106  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.adservices/priv-app/AdServicesApkGoogle@350820260/AdServicesApkGoogle.apk' with 1 weak references
+12-23 11:24:57.107  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/DisplayCutoutEmulationHole/DisplayCutoutEmulationHoleOverlay.apk' with 1 weak references
+12-23 11:24:57.107  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/DisplayCutoutEmulationTall/DisplayCutoutEmulationTallOverlay.apk' with 1 weak references
+12-23 11:24:57.107  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/CertInstaller/CertInstaller.apk' with 1 weak references
+12-23 11:24:57.107  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+12-23 11:24:57.108  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+12-23 11:24:57.108  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk' with 1 weak references
+12-23 11:24:57.108  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Camera2/Camera2.apk' with 1 weak references
+12-23 11:24:57.108  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/EasterEgg/EasterEgg.apk' with 1 weak references
+12-23 11:24:57.108  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/MtpService/MtpService.apk' with 1 weak references
+12-23 11:24:57.108  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.nfcservices/priv-app/NfcNciApexGoogle@AE3A.240806.036/NfcNciApexGoogle.apk' with 1 weak references
+12-23 11:24:57.108  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/Stk/Stk.apk' with 1 weak references
+12-23 11:24:57.108  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~4ZggGw5st4heYg4xTA2M-A==/com.google.android.deskclock-aGZ57vVY3VmNhuCyJw0zjQ==/base.apk' with 1 weak references
+12-23 11:24:57.108  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~4ZggGw5st4heYg4xTA2M-A==/com.google.android.deskclock-aGZ57vVY3VmNhuCyJw0zjQ==/split_config.xxhdpi.apk' with 1 weak references
+12-23 11:24:57.108  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/NavigationBarMode2Button/NavigationBarMode2ButtonOverlay.apk' with 1 weak references
+12-23 11:24:57.108  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/DevicePersonalizationPrebuiltPixel2021-aiai_20240329.00_RC16/DevicePersonalizationPrebuiltPixel2021-aiai_20240329.00_RC16.apk' with 1 weak references
+12-23 11:24:57.108  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Ra66InceFsz0F9AgvuuO7g==/com.google.android.gm-Knwl1YxLDUr5w4j2PLnLkg==/base.apk' with 1 weak references
+12-23 11:24:57.109  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Ra66InceFsz0F9AgvuuO7g==/com.google.android.gm-Knwl1YxLDUr5w4j2PLnLkg==/split_config.en.apk' with 1 weak references
+12-23 11:24:57.109  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Ra66InceFsz0F9AgvuuO7g==/com.google.android.gm-Knwl1YxLDUr5w4j2PLnLkg==/split_config.x86_64.apk' with 1 weak references
+12-23 11:24:57.109  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Ra66InceFsz0F9AgvuuO7g==/com.google.android.gm-Knwl1YxLDUr5w4j2PLnLkg==/split_config.xxhdpi.apk' with 1 weak references
+12-23 11:24:57.109  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.permission/priv-app/GooglePermissionController@350820360/GooglePermissionController.apk' with 1 weak references
+12-23 11:24:57.109  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/GooglePermissionControllerOverlay.apk' with 1 weak references
+12-23 11:24:57.109  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.btservices/app/BluetoothGoogle@342010060/BluetoothGoogle.apk' with 1 weak references
+12-23 11:24:57.109  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/SettingsProvider/SettingsProvider.apk' with 1 weak references
+12-23 11:24:57.109  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/LargeScreenSettingsProviderOverlay.apk' with 1 weak references
+12-23 11:24:57.109  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/SettingsProvider__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+12-23 11:24:57.109  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/PrintSpooler/PrintSpooler.apk' with 1 weak references
+12-23 11:24:57.109  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/BasicDreams/BasicDreams.apk' with 1 weak references
+12-23 11:24:57.109  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~G1APgK4WtTfxEe6b4LAcQw==/com.google.android.as.oss-bbq-yP-BivzO58wht_jhIA==/base.apk' with 1 weak references
+12-23 11:24:57.109  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~G1APgK4WtTfxEe6b4LAcQw==/com.google.android.as.oss-bbq-yP-BivzO58wht_jhIA==/split_config.arm64_v8a.apk' with 1 weak references
+12-23 11:24:57.109  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~G1APgK4WtTfxEe6b4LAcQw==/com.google.android.as.oss-bbq-yP-BivzO58wht_jhIA==/split_config.en.apk' with 1 weak references
+12-23 11:24:57.109  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~G1APgK4WtTfxEe6b4LAcQw==/com.google.android.as.oss-bbq-yP-BivzO58wht_jhIA==/split_config.xxhdpi.apk' with 1 weak references
+12-23 11:24:57.109  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/InputDevices/InputDevices.apk' with 1 weak references
+12-23 11:24:57.109  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.devicelock/priv-app/DeviceLockControllerGoogle@AE3A.240806.036/DeviceLockControllerGoogle.apk' with 1 weak references
+12-23 11:24:57.109  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~H47oSM6jWxltmxVXWQuCKQ==/com.google.android.dialer-ADLW5i8dqwz7d9RPx12uKA==/base.apk' with 1 weak references
+12-23 11:24:57.110  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/BuiltInPrintService/BuiltInPrintService.apk' with 1 weak references
+12-23 11:24:57.110  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/BuiltInPrintService__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+12-23 11:24:57.110  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/CaptivePortalLoginGoogle/CaptivePortalLoginGoogle.apk' with 1 weak references
+12-23 11:24:57.110  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/MusicFX/MusicFX.apk' with 1 weak references
+12-23 11:24:57.110  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~6hUELF86_IBvMJ_bxHSnRA==/com.google.android.apps.docs-ekIchT1Ej4Hry8qJPn7meA==/base.apk' with 1 weak references
+12-23 11:24:57.110  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~6hUELF86_IBvMJ_bxHSnRA==/com.google.android.apps.docs-ekIchT1Ej4Hry8qJPn7meA==/split_config.en.apk' with 1 weak references
+12-23 11:24:57.111  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~6hUELF86_IBvMJ_bxHSnRA==/com.google.android.apps.docs-ekIchT1Ej4Hry8qJPn7meA==/split_config.x86_64.apk' with 1 weak references
+12-23 11:24:57.111  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~6hUELF86_IBvMJ_bxHSnRA==/com.google.android.apps.docs-ekIchT1Ej4Hry8qJPn7meA==/split_config.xxhdpi.apk' with 1 weak references
+12-23 11:24:57.111  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~LtJW0DjHSyM0balNstAHGQ==/com.google.android.apps.maps-OiFGQVLolhZMh3qW5GzJiQ==/base.apk' with 1 weak references
+12-23 11:24:57.112  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~LtJW0DjHSyM0balNstAHGQ==/com.google.android.apps.maps-OiFGQVLolhZMh3qW5GzJiQ==/split_config.en.apk' with 1 weak references
+12-23 11:24:57.112  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~LtJW0DjHSyM0balNstAHGQ==/com.google.android.apps.maps-OiFGQVLolhZMh3qW5GzJiQ==/split_config.x86_64.apk' with 1 weak references
+12-23 11:24:57.112  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~LtJW0DjHSyM0balNstAHGQ==/com.google.android.apps.maps-OiFGQVLolhZMh3qW5GzJiQ==/split_config.xxhdpi.apk' with 1 weak references
+12-23 11:24:57.112  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/ModuleMetadataGoogle/ModuleMetadataGoogle.apk' with 1 weak references
+12-23 11:24:57.112  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/DisplayCutoutEmulationEmu01/DisplayCutoutEmulationEmu01Overlay.apk' with 1 weak references
+12-23 11:24:57.112  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/AvatarPickerGoogle/AvatarPickerGoogle.apk' with 1 weak references
+12-23 11:24:57.112  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/MarkupGoogle_v2/MarkupGoogle_v2.apk' with 1 weak references
+12-23 11:24:57.112  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/NetworkStackGoogle/NetworkStackGoogle.apk' with 1 weak references
+12-23 11:24:57.112  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.rkpd/priv-app/rkpdapp.google@350820300/rkpdapp.google.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~7i9KuXzQqtitDahcS2eu9A==/com.google.android.contacts-9zx6805XzEk0IwLgjW5a2Q==/base.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~7i9KuXzQqtitDahcS2eu9A==/com.google.android.contacts-9zx6805XzEk0IwLgjW5a2Q==/split_config.en.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~7i9KuXzQqtitDahcS2eu9A==/com.google.android.contacts-9zx6805XzEk0IwLgjW5a2Q==/split_config.x86_64.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~7i9KuXzQqtitDahcS2eu9A==/com.google.android.contacts-9zx6805XzEk0IwLgjW5a2Q==/split_config.xxhdpi.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/Telecom/Telecom.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/Telecom__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/KeyChain/KeyChain.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~OGc-6EPL6InJdGQJppkc6Q==/com.android.chrome-e08xV29N5CRxu5lhQRboGg==/base.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~OGc-6EPL6InJdGQJppkc6Q==/com.android.chrome-e08xV29N5CRxu5lhQRboGg==/split_chrome.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~OGc-6EPL6InJdGQJppkc6Q==/com.android.chrome-e08xV29N5CRxu5lhQRboGg==/split_config.en.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~OGc-6EPL6InJdGQJppkc6Q==/com.android.chrome-e08xV29N5CRxu5lhQRboGg==/split_dev_ui.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~OGc-6EPL6InJdGQJppkc6Q==/com.android.chrome-e08xV29N5CRxu5lhQRboGg==/split_on_demand.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~OGc-6EPL6InJdGQJppkc6Q==/com.android.chrome-e08xV29N5CRxu5lhQRboGg==/split_stack_unwinder.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~OGc-6EPL6InJdGQJppkc6Q==/com.android.chrome-e08xV29N5CRxu5lhQRboGg==/split_test_dummy.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~mQmiBuPOjWU3h7YiODYI_g==/com.google.android.trichromelibrary_739011138-Ua5lfd-8SYepH44D8Tw0rw==/base.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/GooglePackageInstaller/GooglePackageInstaller.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PixelThemesStub/PixelThemesStub.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/TagGoogle/TagGoogle.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~P5etgdAAKlsFeQM6ch25sQ==/com.google.android.tts--o9GSK3s1pH_LMdrb2SaXQ==/base.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~P5etgdAAKlsFeQM6ch25sQ==/com.google.android.tts--o9GSK3s1pH_LMdrb2SaXQ==/split_config.en.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~P5etgdAAKlsFeQM6ch25sQ==/com.google.android.tts--o9GSK3s1pH_LMdrb2SaXQ==/split_config.x86_64.apk' with 1 weak references
+12-23 11:24:57.113  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~P5etgdAAKlsFeQM6ch25sQ==/com.google.android.tts--o9GSK3s1pH_LMdrb2SaXQ==/split_config.xxhdpi.apk' with 1 weak references
+12-23 11:24:57.115  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/CallLogBackup/CallLogBackup.apk' with 1 weak references
+12-23 11:24:57.115  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~_IG36YVVzve35bZH7RKAQQ==/com.google.android.partnersetup-Pn9Z5paEDEwW_SOVQGp8Xw==/base.apk' with 1 weak references
+12-23 11:24:57.115  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~_IG36YVVzve35bZH7RKAQQ==/com.google.android.partnersetup-Pn9Z5paEDEwW_SOVQGp8Xw==/split_config.ar.apk' with 1 weak references
+12-23 11:24:57.115  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~_IG36YVVzve35bZH7RKAQQ==/com.google.android.partnersetup-Pn9Z5paEDEwW_SOVQGp8Xw==/split_config.en.apk' with 1 weak references
+12-23 11:24:57.115  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~_IG36YVVzve35bZH7RKAQQ==/com.google.android.partnersetup-Pn9Z5paEDEwW_SOVQGp8Xw==/split_config.xxhdpi.apk' with 1 weak references
+12-23 11:24:57.115  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/CameraExtensionsProxy/CameraExtensionsProxy.apk' with 1 weak references
+12-23 11:24:57.115  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/NexusWallpapersStubPrebuilt2018/NexusWallpapersStubPrebuilt2018.apk' with 1 weak references
+12-23 11:24:57.115  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk' with 1 weak references
+12-23 11:24:57.116  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/CarrierDefaultApp/CarrierDefaultApp.apk' with 1 weak references
+12-23 11:24:57.116  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/CredentialManager/CredentialManager.apk' with 1 weak references
+12-23 11:24:57.116  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/FontNotoSerifSource/FontNotoSerifSourceOverlay.apk' with 1 weak references
+12-23 11:24:57.117  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~1iGCFcytRq8AKbIdvf_ToQ==/com.example.calcapp-dVhdC196bT8_lIweKlb8UQ==/base.apk' with 1 weak references
+12-23 11:24:57.119  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/DeviceAsWebcam/DeviceAsWebcam.apk' with 1 weak references
+12-23 11:24:57.119  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/ProxyHandler/ProxyHandler.apk' with 1 weak references
+12-23 11:24:57.119  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.permission/priv-app/GoogleSafetyCenterResources@350820360/GoogleSafetyCenterResources.apk' with 1 weak references
+12-23 11:24:57.119  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/DisplayCutoutEmulationWaterfall/DisplayCutoutEmulationWaterfallOverlay.apk' with 1 weak references
+12-23 11:24:57.120  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/IntentResolver/IntentResolver.apk' with 1 weak references
+12-23 11:24:57.120  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/TransparentNavigationBar/TransparentNavigationBarOverlay.apk' with 1 weak references
+12-23 11:24:57.121  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/E2eeContactKeysProvider/E2eeContactKeysProvider.apk' with 1 weak references
+12-23 11:24:57.121  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.tethering/priv-app/ServiceConnectivityResourcesGoogle@350820300/ServiceConnectivityResourcesGoogle.apk' with 1 weak references
+12-23 11:24:57.121  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/vendor/overlay/goldfish_overlay_connectivity_google.apk' with 1 weak references
+12-23 11:24:57.121  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/GoogleFeedback/GoogleFeedback.apk' with 1 weak references
+12-23 11:24:57.121  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/GooglePrintRecommendationService/GooglePrintRecommendationService.apk' with 1 weak references
+12-23 11:24:57.121  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~OWPwzz2X7udaVnAhRRX2QA==/com.google.android.apps.photos--7qv-UbcKii4ru2Z-LYhdQ==/base.apk' with 1 weak references
+12-23 11:24:57.121  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~OWPwzz2X7udaVnAhRRX2QA==/com.google.android.apps.photos--7qv-UbcKii4ru2Z-LYhdQ==/split_config.en.apk' with 1 weak references
+12-23 11:24:57.121  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~OWPwzz2X7udaVnAhRRX2QA==/com.google.android.apps.photos--7qv-UbcKii4ru2Z-LYhdQ==/split_config.x86_64.apk' with 1 weak references
+12-23 11:24:57.121  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~OWPwzz2X7udaVnAhRRX2QA==/com.google.android.apps.photos--7qv-UbcKii4ru2Z-LYhdQ==/split_config.xxhdpi.apk' with 1 weak references
+12-23 11:24:57.122  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~KFfWK0Df3Li2va7Jkt_q4A==/com.google.android.calendar-6gKkI8lX3CJqrzNupX9emw==/base.apk' with 1 weak references
+12-23 11:24:57.122  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~KFfWK0Df3Li2va7Jkt_q4A==/com.google.android.calendar-6gKkI8lX3CJqrzNupX9emw==/split_config.en.apk' with 1 weak references
+12-23 11:24:57.122  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~KFfWK0Df3Li2va7Jkt_q4A==/com.google.android.calendar-6gKkI8lX3CJqrzNupX9emw==/split_config.x86_64.apk' with 1 weak references
+12-23 11:24:57.122  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~KFfWK0Df3Li2va7Jkt_q4A==/com.google.android.calendar-6gKkI8lX3CJqrzNupX9emw==/split_config.xxhdpi.apk' with 1 weak references
+12-23 11:24:57.122  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/ManagedProvisioning/ManagedProvisioning.apk' with 1 weak references
+12-23 11:24:57.122  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/SoundPicker/SoundPicker.apk' with 1 weak references
+12-23 11:24:57.122  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk' with 1 weak references
+12-23 11:24:57.122  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PrebuiltGoogleTelemetryTvp/PrebuiltGoogleTelemetryTvp.apk' with 1 weak references
+12-23 11:24:57.122  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/MultiDisplayProvider/MultiDisplayProvider.apk' with 1 weak references
+12-23 11:24:57.122  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/DeviceDiagnostics/DeviceDiagnostics.apk' with 1 weak references
+12-23 11:24:57.123  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/DeviceDiagnostics__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+12-23 11:24:57.123  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/overlay/NotesRoleEnabled/NotesRoleEnabledOverlay.apk' with 1 weak references
+12-23 11:24:57.123  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/LiveWallpapersPicker/LiveWallpapersPicker.apk' with 1 weak references
+12-23 11:24:57.123  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PrebuiltGoogleAdservicesTvp/PrebuiltGoogleAdservicesTvp.apk' with 1 weak references
+12-23 11:24:57.123  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.healthfitness/priv-app/HealthConnectControllerGoogle@350820300/HealthConnectControllerGoogle.apk' with 1 weak references
+12-23 11:24:57.123  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~h_oe-8hsqH6R-EFw3BdoNg==/ae.gov.dhamobile-LP1S8g2r0Ntr69ehlG7uLg==/base.apk' with 1 weak references
+12-23 11:24:57.123  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/KidsSupervisionStub/KidsSupervisionStub.apk' with 1 weak references
+12-23 11:24:57.124  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/StorageManager/StorageManager.apk' with 1 weak references
+12-23 11:24:57.124  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/StorageManager__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+12-23 11:24:57.124  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/BookmarkProvider/BookmarkProvider.apk' with 1 weak references
+12-23 11:24:57.124  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/SettingsGoogle/SettingsGoogle.apk' with 1 weak references
+12-23 11:24:57.125  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/SettingsGoogle__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+12-23 11:24:57.126  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk' with 1 weak references
+12-23 11:24:57.127  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.uwb/priv-app/ServiceUwbResourcesGoogle@350820300/ServiceUwbResourcesGoogle.apk' with 1 weak references
+12-23 11:24:57.127  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.wifi/priv-app/ServiceWifiResourcesGoogle@350820300/ServiceWifiResourcesGoogle.apk' with 1 weak references
+12-23 11:24:57.130  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/ThemePicker/ThemePicker.apk' with 1 weak references
+12-23 11:24:57.130  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk' with 1 weak references
+12-23 11:24:57.131  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/OdadPrebuilt/OdadPrebuilt.apk' with 1 weak references
+12-23 11:24:57.131  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/TeleService/TeleService.apk' with 1 weak references
+12-23 11:24:57.131  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/vendor/overlay/TeleService__sdk_gphone64_x86_64__auto_generated_rro_vendor.apk' with 1 weak references
+12-23 11:24:57.131  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '/product/overlay/TeleService__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+12-23 11:24:57.131  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/Shell/Shell.apk' with 1 weak references
+12-23 11:24:57.131  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/BlockedNumberProvider/BlockedNumberProvider.apk' with 1 weak references
+12-23 11:24:57.131  7499  7516 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/UserDictionaryProvider/UserDictionaryProvider.apk' with 1 weak references
+12-23 11:24:57.208  1076  1076 W Choreographer: Frame time is 0.47801 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+12-23 11:24:57.273  1076  1249 D EGL_emulation: app_time_stats: avg=153.93ms min=2.82ms max=1488.71ms count=10
+12-23 11:24:57.942   726  1852 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@f982f103 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+12-23 11:24:57.961   462   462 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+12-23 11:24:57.965   726   794 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@f982f103 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+12-23 11:24:57.968  1354  1354 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=116, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.calcapp.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }
+12-23 11:24:57.976  8826  8826 D LifecycleMonitor: Lifecycle status change: com.example.calcapp.ui.MainActivity@44071d2 in: PAUSED
+12-23 11:24:57.976  8826  8826 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.calcapp.ui.MainActivity@44071d2
+12-23 11:24:58.020   390   390 D Zygote  : Forked child process 8854
+12-23 11:24:58.091  8826  8842 D EGL_emulation: app_time_stats: avg=21.15ms min=1.84ms max=332.12ms count=58
+12-23 11:24:58.106  8854  8854 I le.calcapp.test: Late-enabling -Xcheck:jni
+12-23 11:24:58.150   414   414 I RanchuHwc: logCompositionFallbackIfChanged: layer 47 CompositionType fallback from 3 to 1
+12-23 11:24:58.275  1076  1249 D EGL_emulation: app_time_stats: avg=44.07ms min=3.26ms max=700.90ms count=18
+12-23 11:24:58.527  8854  8854 I le.calcapp.test: Using CollectorTypeCMC GC.
+12-23 11:24:58.540  8854  8854 W le.calcapp.test: Unexpected CPU variant for x86: x86_64.
+12-23 11:24:58.540  8854  8854 W le.calcapp.test: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+12-23 11:24:58.558   469   482 I adbd    : jdwp connection from 8854
+12-23 11:24:58.639  8826  8826 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+12-23 11:24:58.682  8854  8854 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+12-23 11:24:58.747  8854  8854 D CompatChangeReporter: Compat change id reported: 242716250; UID 10215; state: ENABLED
+12-23 11:24:58.783  8854  8854 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+12-23 11:24:58.816  8854  8854 D nativeloader: Configuring clns-7 for other apk /system/framework/android.test.mock.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~-JMuTnsnfOAu0IBLgW78hw==/com.example.calcapp.test-clghp9qcNddEOdCeWszjDA==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.calcapp.test
+12-23 11:24:58.821  8854  8854 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+12-23 11:24:58.827  8854  8854 D nativeloader: Configuring clns-8 for other apk /system/framework/android.test.runner.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~-JMuTnsnfOAu0IBLgW78hw==/com.example.calcapp.test-clghp9qcNddEOdCeWszjDA==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.calcapp.test
+12-23 11:24:58.829  8854  8854 W ziparchive: Unable to open '/data/app/~~-JMuTnsnfOAu0IBLgW78hw==/com.example.calcapp.test-clghp9qcNddEOdCeWszjDA==/base.dm': No such file or directory
+12-23 11:24:58.829  8854  8854 W ziparchive: Unable to open '/data/app/~~-JMuTnsnfOAu0IBLgW78hw==/com.example.calcapp.test-clghp9qcNddEOdCeWszjDA==/base.dm': No such file or directory
+12-23 11:24:59.067  8854  8854 D nativeloader: Configuring clns-9 for other apk /data/app/~~-JMuTnsnfOAu0IBLgW78hw==/com.example.calcapp.test-clghp9qcNddEOdCeWszjDA==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~-JMuTnsnfOAu0IBLgW78hw==/com.example.calcapp.test-clghp9qcNddEOdCeWszjDA==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.calcapp.test
+12-23 11:24:59.099  8854  8854 V GraphicsEnvironment: Currently set values for:
+12-23 11:24:59.099  8854  8854 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+12-23 11:24:59.099  8854  8854 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+12-23 11:24:59.099  8854  8854 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+12-23 11:24:59.100  8854  8854 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+12-23 11:24:59.272  8826  8826 D LifecycleMonitor: Lifecycle status change: com.example.calcapp.ui.MainActivity@44071d2 in: STOPPED
+12-23 11:24:59.273  8826  8826 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.calcapp.ui.MainActivity@44071d2
+12-23 11:24:59.276  8854  8854 W HWUI    : Unknown dataspace 0
+12-23 11:24:59.275   726   795 W Choreographer: Frame time is 0.142391 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+12-23 11:24:59.308  1354  1354 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=105, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity }
+12-23 11:24:59.311   462   462 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+12-23 11:24:59.322   462   472 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10215 pid=0
+12-23 11:24:59.322   462   472 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10215 => denied (326 us)
+12-23 11:24:59.323   462   472 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10215 pid=0
+12-23 11:24:59.323   462   472 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10215 => denied (517 us)
+12-23 11:24:59.324   462   472 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10215 pid=0
+12-23 11:24:59.324   462   472 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10215 => denied (1095 us)
+12-23 11:24:59.325   462   535 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10215 pid=8854
+12-23 11:24:59.325   462   535 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10215 => denied (1630 us)
+12-23 11:24:59.332  8854  8868 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+12-23 11:24:59.337  8854  8868 I EGL_emulation: Opening libGLESv2_emulation.so
+12-23 11:24:59.374  8826  8826 D LifecycleMonitor: Lifecycle status change: com.example.calcapp.ui.MainActivity@44071d2 in: DESTROYED
+12-23 11:24:59.375  8826  8826 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+12-23 11:24:59.377  8826  8826 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@d9ae0af
+12-23 11:24:59.388   726  2112 W InputManager-JNI: Input channel object '92d006a com.example.calcapp/com.example.calcapp.ui.MainActivity (client)' was disposed without first being removed with the input manager!
+12-23 11:24:59.405  8854  8868 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-23 11:24:59.405  8854  8868 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+12-23 11:24:59.406  1354  1354 I TopTaskTracker: onTaskRemoved: taskId=115
+12-23 11:24:59.406  1354  1354 I TopTaskTracker: onTaskRemoved: taskId=115
+12-23 11:24:59.409  8826  8840 D IdlingRegistry: Unregistering idling resources: [androidx.compose.ui.test.junit4.EspressoLink@64e2017]
+12-23 11:24:59.410  8826  8840 I TestRunner: finished: basic_addition_flow_displays_correct_result(com.example.calcapp.ui.CalculatorUiTest)
