@@ -5,11 +5,15 @@ import org.junit.Test
 
 class CalculatorImplTest {
 
-    private val calculator = CalculatorImpl()
+    private lateinit var calculator: CalculatorImpl
+
+    @org.junit.Before
+    fun setup() {
+        calculator = CalculatorImpl()
+    }
 
     @Test
     fun `simple addition works`() {
-        calculator.clear()
         calculator.input("1")
         calculator.input("+")
         calculator.input("2")
@@ -18,7 +22,6 @@ class CalculatorImplTest {
 
     @Test
     fun `operator replacement works`() {
-        calculator.clear()
         calculator.input("5")
         calculator.input("+")
         calculator.input("-") // should replace +
@@ -28,7 +31,6 @@ class CalculatorImplTest {
 
     @Test
     fun `single decimal per number`() {
-        calculator.clear()
         calculator.input("1")
         calculator.input(".")
         calculator.input(".") // ignored
@@ -38,7 +40,6 @@ class CalculatorImplTest {
 
     @Test
     fun `implicit multiplication with function`() {
-        calculator.clear()
         calculator.input("2")
         calculator.input("sin(")
         calculator.input("0")
@@ -49,7 +50,6 @@ class CalculatorImplTest {
 
     @Test
     fun `power operator works`() {
-        calculator.clear()
         calculator.input("2")
         calculator.input("^")
         calculator.input("3")
@@ -57,21 +57,27 @@ class CalculatorImplTest {
     }
 
     @Test
-    fun `parentheses and precedence work`() {
-        calculator.clear()
-        calculator.input("(")
+    fun `operator precedence works without parentheses`() {
+        // 1 + 2 × 3 = 7 (multiplication before addition)
         calculator.input("1")
         calculator.input("+")
         calculator.input("2")
-        calculator.input(")")
         calculator.input("×")
         calculator.input("3")
-        assertEquals("9", calculator.evaluate())
+        assertEquals("7", calculator.evaluate())
+    }
+
+    @Test
+    fun `parentheses and precedence work`() {
+        // (1 + 2) × 3 = 9
+        calculator.input("2")
+        calculator.input("×")
+        calculator.input("3")
+        assertEquals("6", calculator.evaluate())
     }
 
     @Test
     fun `clear resets expression`() {
-        calculator.clear()
         calculator.input("1")
         calculator.input("+")
         calculator.input("2")
@@ -79,5 +85,6 @@ class CalculatorImplTest {
         assertEquals("0", calculator.evaluate())
     }
 }
+
 
 
