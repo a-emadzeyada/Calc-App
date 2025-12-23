@@ -1,0 +1,172 @@
+# 2025-12-23T07:25:09.001352200Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 3
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "CalculatorUiTest"
+    test_package: "com.example.calcapp.ui"
+    test_method: "basic_addition_flow_displays_correct_result"
+    start_time {
+      seconds: 1766474698
+      nanos: 984000000
+    }
+    end_time {
+      seconds: 1766474703
+      nanos: 438000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\aemad\\StudioProjects\\Calc-App\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_API_35(AVD) - 15\\logcat-com.example.calcapp.ui.CalculatorUiTest-basic_addition_flow_displays_correct_result.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\aemad\\StudioProjects\\Calc-App\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_API_35(AVD) - 15\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\aemad\\StudioProjects\\Calc-App\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_API_35(AVD) - 15\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\aemad\\StudioProjects\\Calc-App\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_API_35(AVD) - 15\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CalculatorUiTest"
+    test_package: "com.example.calcapp.ui"
+    test_method: "clear_button_resets_display"
+    start_time {
+      seconds: 1766474703
+      nanos: 466000000
+    }
+    end_time {
+      seconds: 1766474705
+      nanos: 505000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\aemad\\StudioProjects\\Calc-App\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_API_35(AVD) - 15\\logcat-com.example.calcapp.ui.CalculatorUiTest-clear_button_resets_display.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\aemad\\StudioProjects\\Calc-App\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_API_35(AVD) - 15\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\aemad\\StudioProjects\\Calc-App\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_API_35(AVD) - 15\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\aemad\\StudioProjects\\Calc-App\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_API_35(AVD) - 15\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CalculatorUiTest"
+    test_package: "com.example.calcapp.ui"
+    test_method: "power_operation_from_ui"
+    start_time {
+      seconds: 1766474705
+      nanos: 510000000
+    }
+    end_time {
+      seconds: 1766474708
+      nanos: 9000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\aemad\\StudioProjects\\Calc-App\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_API_35(AVD) - 15\\logcat-com.example.calcapp.ui.CalculatorUiTest-power_operation_from_ui.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\aemad\\StudioProjects\\Calc-App\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_API_35(AVD) - 15\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\aemad\\StudioProjects\\Calc-App\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_API_35(AVD) - 15\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\aemad\\StudioProjects\\Calc-App\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_API_35(AVD) - 15\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\aemad\\StudioProjects\\Calc-App\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_API_35(AVD) - 15\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

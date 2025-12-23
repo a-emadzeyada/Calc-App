@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.calcapp.ui.CalculatorUiTest" tests="3" failures="0" errors="0" skipped="0" time="9.926" timestamp="2025-12-23T07:25:08" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_7_API_35(AVD) - 15" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="basic_addition_flow_displays_correct_result" classname="com.example.calcapp.ui.CalculatorUiTest" time="4.409" />
+  <testcase name="clear_button_resets_display" classname="com.example.calcapp.ui.CalculatorUiTest" time="2.031" />
+  <testcase name="power_operation_from_ui" classname="com.example.calcapp.ui.CalculatorUiTest" time="2.499" />
+</testsuite>

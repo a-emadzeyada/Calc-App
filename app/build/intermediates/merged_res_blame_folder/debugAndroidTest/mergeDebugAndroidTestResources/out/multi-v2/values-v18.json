@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.calcapp.test.app-mergeDebugAndroidTestResources-32:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\aemad\\.gradle\\caches\\9.0-milestone-1\\transforms\\2347bdd327c3dd3c51291ac21c58c58b\\transformed\\core-1.6.1\\res\\values-v18\\values.xml",
+                    "from": {
+                        "startLines": "4,12",
+                        "startColumns": "0,0",
+                        "startOffsets": "146,562",
+                        "endLines": "11,19",
+                        "endColumns": "8,8",
+                        "endOffsets": "561,975"
+                    },
+                    "to": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,475",
+                        "endLines": "9,17",
+                        "endColumns": "8,8",
+                        "endOffsets": "470,888"
+                    }
+                }
+            ]
+        }
+    ]
+}
